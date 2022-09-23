@@ -1,0 +1,69 @@
+$font-body: 'Poppins';
+$font-heading: 'Montserrat';
+
+$colour-neutral-00: hsl(0deg, 0%, 0%);
+$colour-neutral-10: hsl(0deg, 0%, 10%);
+$colour-neutral-20: hsl(0deg, 0%, 20%);
+$colour-neutral-30: hsl(0deg, 0%, 30%);
+$colour-neutral-40: hsl(0deg, 0%, 40%);
+$colour-neutral-50: hsl(0deg, 0%, 50%);
+$colour-neutral-60: hsl(0deg, 0%, 60%);
+$colour-neutral-70: hsl(0deg, 0%, 70%);
+$colour-neutral-80: hsl(0deg, 0%, 80%);
+$colour-neutral-90: hsl(0deg, 0%, 90%);
+$colour-neutral-100: hsl(0deg, 0%, 100%);
+
+// ****************************************************************************
+// Primary Colour
+// ****************************************************************************
+
+$primary-hue: 20deg;
+$primary-saturation: 50%;
+
+$colour-primary-10: hsl($primary-hue, $primary-saturation, 10%);
+$colour-primary-20: hsl($primary-hue, $primary-saturation, 20%);
+$colour-primary-30: hsl($primary-hue, $primary-saturation, 30%);
+$colour-primary-40: hsl($primary-hue, $primary-saturation, 40%);
+$colour-primary-50: hsl($primary-hue, $primary-saturation, 50%);
+$colour-primary-60: hsl($primary-hue, $primary-saturation, 60%);
+$colour-primary-70: hsl($primary-hue, $primary-saturation, 70%);
+$colour-primary-80: hsl($primary-hue, $primary-saturation, 80%);
+$colour-primary-90: hsl($primary-hue, $primary-saturation, 90%);
+
+// ****************************************************************************
+// Secondary Colour
+// ****************************************************************************
+
+$secondary-hue: 20deg;
+$secondary-saturation: 50%;
+
+$colour-secondary-10: hsl($secondary-hue, $secondary-saturation, 10%);
+$colour-secondary-20: hsl($secondary-hue, $secondary-saturation, 20%);
+$colour-secondary-30: hsl($secondary-hue, $secondary-saturation, 30%);
+$colour-secondary-40: hsl($secondary-hue, $secondary-saturation, 40%);
+$colour-secondary-50: hsl($secondary-hue, $secondary-saturation, 50%);
+$colour-secondary-60: hsl($secondary-hue, $secondary-saturation, 60%);
+$colour-secondary-70: hsl($secondary-hue, $secondary-saturation, 70%);
+$colour-secondary-80: hsl($secondary-hue, $secondary-saturation, 80%);
+$colour-secondary-90: hsl($secondary-hue, $secondary-saturation, 90%);
+
+
+$size-1: 10px;
+$size-2: 20px;
+$size-3: 30px;
+$size-4: 40px;
+$size-5: 50px;
+$size-6: 60px;
+$size-7: 70px;
+$size-8: 80px;
+$size-9: 90px;
+$size-10: 100px;
+
+@import url('https://fonts.googleapis.com/css2?family=#{$font-body}:wght@100;400;700&family=#{$font-heading}:wght@100;400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-body;
+}
